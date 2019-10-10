@@ -1,0 +1,17 @@
+#include<iostream>
+#include<iomanip>
+#include<string>
+using namespace std;
+stuct student{
+int num;
+string name;
+char sex;
+int age;};
+int main(){
+student stu={0501060607,"XiXin",'F‘，21}；
+cout<<"Num="<<stu.num<<endl;
+cout<<"Name="<<stu.name<<endl;
+cout<<"Sex="<<stu.sex<<endl;
+cout<<"Age="<<stu.age<<endl;
+return 0;
+}
